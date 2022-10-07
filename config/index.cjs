@@ -19,20 +19,25 @@ const USER_CONFIG = {
     USERS: [
     {
       // 想要发送的人的名字
-      name: 'Qy',
+      name: '',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'ogm0j6fFTXMGH5N4qZtq3x0q4bGE',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'qo1ZuTW7_r7lGaFQoINkvs26MIROD76FNRpzgwRXrJM',
+      useTemplateId: 'fA_PDDnh00C7gEh0zq3Kh68TU84UWEuzpAMQU90AIlE',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '03-17',
       festivals: [
+
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
           type: '生日', name: '多多', year: '1997', date: '03-17',
         },
+        // ‘type'中“*生日”表明阴历生日
         {
-          type: '节日', name: '恋爱纪念日', year: '2011', date: '04-01',
+          type: '*生日', name: '妈妈', year: '1972', date: '05-06',
+        },
+        {
+          type: '*生日', name: '爸爸', year: '1972', date: '03-05',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
@@ -49,7 +54,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'ogm0j6YaJUdyiNHM5WL1NjlOMzl0',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'qo1ZuTW7_r7lGaFQoINkvs26MIROD76FNRpzgwRXrJM',
+      useTemplateId: 'fA_PDDnh00C7gEh0zq3Kh68TU84UWEuzpAMQU90AIlE',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '03-17',
       festivals: [
