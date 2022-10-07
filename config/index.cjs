@@ -19,9 +19,9 @@ const USER_CONFIG = {
     USERS: [
     {
       // 想要发送的人的名字
-      name: '',
+      name: 'Qy',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'ogm0j6fFTXMGH5N4qZtq3x0q4bGE',
+      id: '',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'fA_PDDnh00C7gEh0zq3Kh68TU84UWEuzpAMQU90AIlE',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
@@ -63,7 +63,10 @@ const USER_CONFIG = {
           type: '生日', name: '多多', year: '1997', date: '03-17',
         },
         {
-          type: '节日', name: '恋爱纪念日', year: '2011', date: '04-01',
+          type: '*生日', name: '妈妈', year: '1997', date: '07-05',
+        },
+        {
+          type: '*生日', name: '爸爸', year: '1997', date: '01-07',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
